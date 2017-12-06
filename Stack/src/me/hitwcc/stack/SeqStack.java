@@ -1,4 +1,7 @@
 package me.hitwcc.stack;
+
+import java.util.Arrays;
+
 /**
  * 
  * Title:顺序栈
@@ -33,5 +36,52 @@ public class SeqStack<E> {
 	 */
 	public boolean isEmpty() {
 		return top == -1;
+	}
+	/**
+	 * 
+	 * @description:push操作
+	 * @author: wcc
+	 * @created: 下午5:23:47
+	 * @param element
+	 * @throws Exception
+	 */
+	public void push(E element) throws Exception {
+		if (top == maxSize - 1) {
+			throw new Exception("栈已满！");
+		}
+		top++;
+		stack[top] = element;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public E pop() throws Exception {
+		if (top == -1 ) {
+			throw new Exception("栈为空");
+		}
+		E element = (E)stack[top];
+		stack[top] = null;
+		top --;
+		return element;
+	}
+	/* (non-Javadoc)打印栈
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "SeqStack [stack=" + Arrays.toString(stack) + "]";
+	}
+	
+	
+	public static void main(String[] args) throws Exception {
+		SeqStack<String> stack = new SeqStack<String>(6);
+		stack.push("wcc");
+		stack.push("is");
+		stack.push("god");
+		stack.push("！");
+		System.out.println(stack);
+		stack.pop();
+		System.out.println(stack);
+		stack.pop();
+		System.out.println(stack);
 	}
 }
