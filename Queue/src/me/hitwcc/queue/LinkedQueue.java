@@ -20,7 +20,7 @@ public class LinkedQueue<E> {
 	}
 	/**
 	 * 
-	 * @description:返回队列大小d
+	 * @description:返回队列大小
 	 * @author: wcc
 	 * @created: 下午5:19:10
 	 * @return
