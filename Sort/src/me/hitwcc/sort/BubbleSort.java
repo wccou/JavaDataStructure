@@ -38,7 +38,7 @@ public class BubbleSort {
 	}
 	
 	public static void main(String[] args) {
-		int[] a = {9,8,7,6,5};
+		int[] a = {9,8,7,6,5,10,11};
 		BubbleSort.bubbleSort(a);
 	}
 
