@@ -1,0 +1,9 @@
+package me.hitwcc.sort;
+
+public class InsertSort {
+
+	public InsertSort() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
