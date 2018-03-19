@@ -90,8 +90,36 @@ public class QuickSort {
 		
 		return target;
 	}
-	public QuickSort() {
-		// TODO Auto-generated constructor stub
+	
+	
+	
+	public static int Partition(int[] target, int left, int right){
+		int base = target[left];
+		int base_index = left;
+		while(left < right){
+			while(left < right && target[right] >= base)
+				right --;
+			while(left < right && target[left] <= base)
+				left ++;
+			int temp = target[right];
+			target[right] = target[left];
+			target[left] = temp;
+		}
+		int temp = target[left];
+		target[left] = base;
+		target[base_index] = temp;
+		return left;
+	}
+	
+	public static int[] quickSort(int[] target, int left, int right) {
+		if (right > left){
+			int partition_index = Partition(target,left,right);
+			quickSort(target,left,partition_index - 1);
+			quickSort(target,partition_index + 1,right);
+			
+		}
+		//System.out.println(Arrays.toString(target));
+		return target;
 	}
 	public static void main(String[] args){
 		int[] a = {6, 7, 4, 8, 2, 1};
@@ -99,5 +127,8 @@ public class QuickSort {
 		QuickSort.BubbleSort(a);
 		QuickSort.InsertSort(a);
 		QuickSort.SelectSort(a);
+		System.out.println("quickSort:");
+		QuickSort.quickSort(a,0,a.length - 1);
+		System.out.println(Arrays.toString(a));
 	}
 }
