@@ -4,7 +4,7 @@ import java.sql.*;
 /**
  * 
  * Title:如何使用jdbc
- * Description:
+ * Description:test
  * @author: wcc
  * @created: 2018年6月12日下午3:06:47
  */
