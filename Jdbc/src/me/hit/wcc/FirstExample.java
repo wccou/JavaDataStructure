@@ -1,7 +1,13 @@
 package me.hit.wcc;
 
 import java.sql.*;
-
+/**
+ * 
+ * Title:如何使用jdbc
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月12日下午3:06:47
+ */
 public class FirstExample {
    // JDBC driver name and database URL
    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
