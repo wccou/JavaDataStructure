@@ -1,0 +1,15 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题37 序列化二叉树
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月8日下午3:12:30
+ */
+public class Test37 {
+
+	public Test37() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

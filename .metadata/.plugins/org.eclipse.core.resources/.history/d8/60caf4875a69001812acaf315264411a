@@ -1,0 +1,9 @@
+package me.hitwcc.test;
+
+public class Test32 {
+
+	public Test32() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -97,16 +97,16 @@ public class QuickSort {
 		int base = target[left];
 		int base_index = left;
 		while(left < right){
-			while(left < right && target[right] >= base)
+			while(left < right && target[right] >= base)//left<right的判断 不可少
 				right --;
-			while(left < right && target[left] <= base)
+			while(left < right && target[left] <= base)//left<right的判断 不可少
 				left ++;
 			int temp = target[right];
 			target[right] = target[left];
 			target[left] = temp;
 		}
-		int temp = target[left];
-		target[left] = base;
+		int temp = target[right];
+		target[right] = base;
 		target[base_index] = temp;
 		return left;
 	}
@@ -122,11 +122,11 @@ public class QuickSort {
 		return target;
 	}
 	public static void main(String[] args){
-		int[] a = {6, 7, 4, 8, 2, 1};
-		QuickSort.BubbleSort2(a);
+		int[] a = {6, 7, 4, 8, 2, 1, 5, 25, 3};
+/*		QuickSort.BubbleSort2(a);
 		QuickSort.BubbleSort(a);
 		QuickSort.InsertSort(a);
-		QuickSort.SelectSort(a);
+		QuickSort.SelectSort(a);*/
 		System.out.println("quickSort:");
 		QuickSort.quickSort(a,0,a.length - 1);
 		System.out.println(Arrays.toString(a));

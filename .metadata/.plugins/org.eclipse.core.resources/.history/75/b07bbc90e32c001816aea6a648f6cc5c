@@ -1,0 +1,32 @@
+package me.hitwcc.sort;
+
+import java.util.Arrays;
+
+public class MergeSort {
+
+	public static int [] mergeSort(int[] target, int left, int right) {
+		if (left < right){
+			int mid = (left + right)/2;
+			mergeSort(target, left, mid);
+			mergeSort(target, mid + 1, right);
+			merge(target, left, mid, right);
+		}
+		return target;
+	}
+	
+	public static void merge(int[] target, int left, int mid, int right){
+		int [] temp = Arrays.copyOf(target, target.length);
+		int s1 = left;
+		int s2 = mid + 1;
+		int index = left;
+		while (s1 <= mid && s2 <= right){
+			if(temp[s1] <= temp[s2]){
+				target[index] = temp[s1];
+			}else{
+				target[index] = temp[s2];
+			}
+			index ++;
+		}
+	}
+
+}

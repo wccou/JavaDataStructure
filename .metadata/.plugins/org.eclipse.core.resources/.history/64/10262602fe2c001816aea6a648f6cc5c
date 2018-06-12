@@ -1,0 +1,9 @@
+package me.hitwcc.sort;
+
+public class SelectSort {
+
+	public SelectSort() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="F:\算法设计与分析\16S103171_潘宇欣_算法实验13\16S103171_潘宇欣_算法实验13\16S103171-潘宇欣-实验3\16S103171-潘宇欣-实验3源码\MinSetCover"/>
+		<item value="F:\算法设计与分析\16S103171_潘宇欣_算法实验13\16S103171_潘宇欣_算法实验13\16S103171-潘宇欣-实验1\16S103171-潘宇欣-实验1源码\MaxConvexHull"/>
 		<item value="C:\Users\wcc\Desktop\FP_Growth算法python实现\FP_Growth最终实现\FP_Growth\src\fp_Growth"/>
 		<item value="F:\JavaDataStructure\DataStructure1"/>
 	</list>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
 </section>

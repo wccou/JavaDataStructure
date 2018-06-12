@@ -1,0 +1,21 @@
+package me.hitwcc.test;
+
+import java.util.ArrayList;
+
+/**
+ * 
+ * Title:面试题29 顺时针打印矩阵
+ * Description:较为复杂
+ * @author: wcc
+ * @created: 2018年6月4日下午6:27:21
+ */
+public class Test29 {
+
+	public Test29() {
+		// TODO Auto-generated constructor stub
+	}
+	public ArrayList<Integer> printMatrix(int [][] matrix) {
+	       int rows=matrix.length;
+	       int columns=matrix[1].length;
+    }
+}

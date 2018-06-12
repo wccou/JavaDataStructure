@@ -1,0 +1,9 @@
+package com.tutorialspoint;
+
+public class HelloWord {
+
+	public HelloWord() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

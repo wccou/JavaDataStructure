@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;me.hitwcc.stack&apos; to &apos;ConvexHull/src&apos;&#x0D;&#x0A;- Original project: &apos;Stack&apos;&#x0D;&#x0A;- Destination element: &apos;ConvexHull/src&apos;&#x0D;&#x0A;- Original element: &apos;Stack/src/me.hitwcc.stack&apos;" description="Copy package" destination="=ConvexHull/src" element1="/src&lt;me.hitwcc.stack" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1523953357223" version="1.0"/>
+</session>
