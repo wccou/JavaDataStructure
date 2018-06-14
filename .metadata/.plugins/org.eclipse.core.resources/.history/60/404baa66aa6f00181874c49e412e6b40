@@ -14,15 +14,6 @@ public class Test40 {
 	public Test40() {
 		// TODO Auto-generated constructor stub
 	}
-	/**
-	 * 
-	 * @description:根据partition思想 缺点是修改了数组  海量数据不行
-	 * @author: wcc
-	 * @created: 下午4:10:03
-	 * @param input
-	 * @param k
-	 * @return
-	 */
 	public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k){
 		ArrayList<Integer> res = new ArrayList<Integer>();
 	    if(input==null||input.length==0||k>input.length||k<=0){
