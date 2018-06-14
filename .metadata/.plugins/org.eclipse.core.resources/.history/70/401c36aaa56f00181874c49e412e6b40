@@ -1,0 +1,15 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题40 
+ * Description:最小的k个数  考虑是否可修改输入的数组 是否是海量数据 有不同的解法
+ * @author: wcc
+ * @created: 2018年6月14日下午3:07:46
+ */
+public class Test40 {
+
+	public Test40() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
