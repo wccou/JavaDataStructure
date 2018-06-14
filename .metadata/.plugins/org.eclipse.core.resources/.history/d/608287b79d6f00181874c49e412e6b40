@@ -1,0 +1,15 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题39
+ * Description:数组中出现次数超过一半的数字
+ * @author: wcc
+ * @created: 2018年6月14日下午2:32:37
+ */
+public class Test39 {
+
+	public Test39() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
