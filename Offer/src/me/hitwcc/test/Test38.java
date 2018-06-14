@@ -51,7 +51,6 @@ public class Test38 {
 		}
 	}
 	private void swap(char[] charArray, int i, int loc) {
-		// TODO Auto-generated method stub
 		char temp = charArray[i];
 		charArray[i] = charArray[loc];
 		charArray[loc] = temp;
