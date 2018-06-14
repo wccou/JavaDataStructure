@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\wcc\Desktop\shopping-management-system-master\shopping-management-system-master\0#Java基础项目\shopping-management-system"/>
+		<item value="C:\Users\wcc\Desktop\shopping-management-system-master\shopping-management-system-master\0#Java基础项目\shopping-management-system\src"/>
 		<item value="F:\算法设计与分析\16S103171_潘宇欣_算法实验13\16S103171_潘宇欣_算法实验13\16S103171-潘宇欣-实验3\16S103171-潘宇欣-实验3源码\MinSetCover"/>
 		<item value="F:\算法设计与分析\16S103171_潘宇欣_算法实验13\16S103171_潘宇欣_算法实验13\16S103171-潘宇欣-实验1\16S103171-潘宇欣-实验1源码\MaxConvexHull"/>
 		<item value="C:\Users\wcc\Desktop\FP_Growth算法python实现\FP_Growth最终实现\FP_Growth\src\fp_Growth"/>
