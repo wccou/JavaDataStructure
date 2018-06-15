@@ -1,0 +1,23 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题41 数据流中的中位数
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月14日下午5:02:44
+ */
+public class Test41 {
+
+	public Test41() {
+		// TODO Auto-generated constructor stub
+	}
+	private ArrayList<Integer> arr = new ArrayList<Integer>();
+	public void Insert(Integer num) {
+	    
+    }
+
+    public Double GetMedian() {
+        
+    }
+
+}
