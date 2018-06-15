@@ -12,9 +12,6 @@ import java.util.Arrays;
  */
 public class Test41 {
 
-	public Test41() {
-		// TODO Auto-generated constructor stub
-	}
 	private ArrayList<Integer> arr = new ArrayList<Integer>();
 	public void Insert(Integer num) {
 	    arr.add(num);
