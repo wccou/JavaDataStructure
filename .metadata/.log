@@ -5039,3 +5039,9 @@ Caused by: java.io.IOException: 另一个程序已锁定文件的一部分，进
 	at org.eclipse.jgit.api.CommitCommand.createTemporaryIndex(CommitCommand.java:415)
 	at org.eclipse.jgit.api.CommitCommand.call(CommitCommand.java:229)
 	... 8 more
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-15 10:34:41.501
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-15 10:34:41.502
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
