@@ -8,7 +8,14 @@ package me.hitwcc.test;
  */
 public class Test43 {
 
-	
+	/**
+	 * 
+	 * @description:使用stringbuilder构造一个长字符串
+	 * @author: wcc
+	 * @created: 下午2:54:16
+	 * @param n
+	 * @return
+	 */
 	public int NumberOf1Between1AndN_Solution(int n) {
 		StringBuilder str = new StringBuilder();
 		int count = 0;
