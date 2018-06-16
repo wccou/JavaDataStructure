@@ -1,0 +1,20 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题43 1-n整数中1出现的次数
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月16日下午1:53:33
+ */
+public class Test43 {
+
+	public Test43() {
+		// TODO Auto-generated constructor stub
+	}
+	public int NumberOf1Between1AndN_Solution(int n) {
+	    for(int i=1;i<=n;i++){
+	    	StringBuilder str = new StringBuilder(i);
+	    }
+    }
+
+}
