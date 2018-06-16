@@ -8,9 +8,7 @@ package me.hitwcc.test;
  */
 public class Test43 {
 
-	public Test43() {
-		// TODO Auto-generated constructor stub
-	}
+	
 	public int NumberOf1Between1AndN_Solution(int n) {
 		StringBuilder str = new StringBuilder();
 		int count = 0;
