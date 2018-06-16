@@ -8,9 +8,7 @@ package me.hitwcc.test;
  */
 public class Test44 {
 
-	public Test44() {
-		// TODO Auto-generated constructor stub
-	}
+
 	public int digitalAtIndex(int index) {
 		
 		if(index<0)
