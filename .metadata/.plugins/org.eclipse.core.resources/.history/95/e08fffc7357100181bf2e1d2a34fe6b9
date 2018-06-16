@@ -1,0 +1,23 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题44 数字序列中某一位的数字
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月16日下午2:55:10
+ */
+public class Test44 {
+
+	public Test44() {
+		// TODO Auto-generated constructor stub
+	}
+	public int digitalAtIndex(int index) {
+		if(index<0)
+			return -1;
+		int s=1;
+		for(int i=0;;i++){
+		    s=s+9*10^i*(i+1);
+		}
+	}
+
+}
