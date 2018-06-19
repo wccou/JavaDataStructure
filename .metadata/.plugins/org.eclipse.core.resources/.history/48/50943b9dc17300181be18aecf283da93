@@ -1,0 +1,29 @@
+package me.hitwcc.test;
+
+public class Test46 {
+
+	public Test46() {
+		// TODO Auto-generated constructor stub
+	}
+	public int NumberToString(int number) {
+		if(number<0)
+			return 0;
+		return NumberToString(Integer.toString(number));
+	}
+	private int NumberToString(String string) {
+		int length = string.length();
+		int[] count=new int[length+1];
+		count[length-1]=1;
+		count[length]=1;
+		for(int i=length-2;i>=0;i--){
+			int result=(string.indexOf(i)-'0')*10+(string.indexOf(i+1));
+			if(result>=10&&result<=25){
+				count[i]=count[i+1]+count[i+2];
+			}else{
+				count[i]=count[i+1];
+			}
+		}
+		return count[0];
+	}
+
+}

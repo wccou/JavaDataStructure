@@ -1,0 +1,18 @@
+package me.hitwcc.test;
+
+public class Test46 {
+
+	public Test46() {
+		// TODO Auto-generated constructor stub
+	}
+	public int NumberToString(int number) {
+		if(number<0)
+			return 0;
+		return NumberToString(Integer.toString(number));
+	}
+	private int NumberToString(String string) {
+		int length = string.length();
+		return 0;
+	}
+
+}
