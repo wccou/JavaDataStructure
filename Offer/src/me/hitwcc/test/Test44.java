@@ -8,9 +8,16 @@ package me.hitwcc.test;
  */
 public class Test44 {
 
-
+	/**
+	 * 
+	 * @description:代码写的较乱 
+	 * @author: wcc
+	 * @created: 下午7:43:25
+	 * @param index
+	 * @return
+	 */
 	public int digitalAtIndex(int index) {
-		
+		index++;
 		if(index<0)
 			return -1;
 		int s=10;
@@ -51,7 +58,7 @@ public class Test44 {
 	}
 	public static void main(String[] args) {
 		Test44 test=new Test44();
-		int ee= test.digitalAtIndex(26);
+		int ee= test.digitalAtIndex(1001);
 		System.out.println(ee);
 	}
 

@@ -8,10 +8,9 @@ package me.hitwcc.test;
  */
 public class Test44 {
 
-	public Test44() {
-		// TODO Auto-generated constructor stub
-	}
+
 	public int digitalAtIndex(int index) {
+		
 		if(index<0)
 			return -1;
 		int s=10;
@@ -28,17 +27,32 @@ public class Test44 {
 
 		int sum=(int) (s-9*Math.pow(10,j-1)*j);
 		sum=index-sum;
-		System.out.println(sum);
+
 		int indexOfJBit=sum/j;
 		int actualIndexInJBit=sum%j;
-		System.out.println(actualIndexInJBit);
-		int number=(int) (Math.pow(10,j-1)+indexOfJBit);
-		return number;
+
+		int number=0;
+		if(actualIndexInJBit!=0){
+			number=(int) (Math.pow(10,j-1)+indexOfJBit);
+		}else{
+			number=(int) (Math.pow(10,j-1)+indexOfJBit-1);
+		}
+		
+		char[] result= Integer.toString(number).toCharArray();
+		if(actualIndexInJBit==0){
+			System.out.println(result[result.length-1]);
+			return Integer.parseInt(String.valueOf(result[result.length-1]));
+		}
+		else{
+			System.out.println(result[actualIndexInJBit-1]);
+			return Integer.parseInt(String.valueOf(result[actualIndexInJBit-1]));
+		
+		}
 	}
 	public static void main(String[] args) {
 		Test44 test=new Test44();
-		int index= test.digitalAtIndex(55);
-		System.out.println(index);
+		int ee= test.digitalAtIndex(26);
+		System.out.println(ee);
 	}
 
 }
