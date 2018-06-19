@@ -14,7 +14,7 @@ public class Test44 {
 	 * @author: wcc
 	 * @created: 下午7:43:25
 	 * @param index
-	 * @return int
+	 * @return
 	 */
 	public int digitalAtIndex(int index) {
 		index++;
