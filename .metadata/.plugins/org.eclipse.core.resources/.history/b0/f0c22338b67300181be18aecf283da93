@@ -26,13 +26,11 @@ public class Test30 {
 			minStack.pop();
 		}
 	}
-	@SuppressWarnings("null")
 	public int top(){
 		if(dataStack.isEmpty())
 			return (Integer) null;
 		return dataStack.peek();
 	}
-	@SuppressWarnings("null")
 	public int min(){
 		if(minStack.isEmpty())
 			return (Integer) null;
