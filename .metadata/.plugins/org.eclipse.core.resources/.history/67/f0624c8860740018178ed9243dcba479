@@ -1,0 +1,15 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:，面试题47
+ * Description:礼物的最大价值
+ * @author: wcc
+ * @created: 2018年6月20日下午3:50:11
+ */
+public class Test47 {
+
+	public Test47() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
