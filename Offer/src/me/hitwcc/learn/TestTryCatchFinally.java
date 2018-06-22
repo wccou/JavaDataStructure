@@ -17,5 +17,9 @@ public class TestTryCatchFinally {
 	}
 	public static void main(String[] args) {
 		System.out.println(test());
+		float i=0.1f;
+		Float j=new Float(0.1);
+		System.out.println(i==j);
+		
 	}
 }
