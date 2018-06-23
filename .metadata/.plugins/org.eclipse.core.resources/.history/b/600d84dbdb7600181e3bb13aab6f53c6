@@ -1,0 +1,53 @@
+package me.hitwcc.test;
+
+import java.util.Arrays;
+
+public class test {
+	public static int InversePairs(int [] array) {
+        int length=array.length;
+        int count=mergeSort(array,0,length-1);
+        return count%1000000007;
+    }
+    public static int mergeSort(int[] target, int left, int right) {
+		if(target==null||target.length==0||target.length ==1)
+			return 0;
+		int leftCount = 0;
+		int rightCount = 0;
+		int mergeCount = 0;
+		if (left < right){
+			int mid = (left + right)/2;
+			leftCount=mergeSort(target, left, mid);
+			rightCount=mergeSort(target, mid + 1, right);
+			mergeCount=merge(target, left, mid, right);
+		}
+		return (leftCount+rightCount+mergeCount)%1000000007;
+	}
+    
+    public static int merge(int[] target, int left, int mid, int right){
+		int [] temp = Arrays.copyOf(target, target.length);
+		int s1 = left;
+		int s2 = mid + 1;
+		int index = left;
+		int count=0;
+		while (s1 <= mid && s2 <= right){
+			if(temp[s1] <= temp[s2]){
+				target[index++] = temp[s1++];
+			}else{
+				target[index++] = temp[s2++];
+				count+=mid-s1+1;
+			}
+		}
+		while(s1 <= mid){
+			target[index++] = temp[s1++];
+		}
+		while(s2 <= right){
+			target[index++] = temp[s2++];
+		}
+		return count;
+	}
+    public static void main(String[] args) {
+		int[] a = {4,3,2,1,};
+		System.out.println(InversePairs(a));
+	}
+
+}

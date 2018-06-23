@@ -1,0 +1,51 @@
+package me.hitwcc.test;
+
+import java.util.Arrays;
+
+/**
+ * 
+ * Title:面试题51
+ * Description:数组中的逆序对 基于归并排序
+ * @author: wcc
+ * @created: 2018年6月22日下午5:18:17
+ */
+public class Test51 {
+
+	public Test51() {
+		// TODO Auto-generated constructor stub
+	}
+	public int mergeSort(int[] array,int begin,int end){
+		if(begin<end){
+			int mid=(begin+end)/2;
+			mergeSort(array,begin,mid);
+			mergeSort(array,mid,end);
+			merge(array,begin,mid,end);
+		}
+	}
+	private void merge(int[] array, int begin, int mid, int end) {
+		int s1=begin;
+		int s2=mid+1;
+		int s=begin;
+		int[] temp=Arrays.copyOf(array, array.length);
+		while(s1<=mid&&s2<=end){
+			if(temp[s1]<=temp[s2]){
+				array[s]=temp[s1];
+				s++;
+				s1++;
+			}else{
+				array[s]=temp[s2];
+				s++;
+				s2++;
+			}
+		
+	}
+	public static void main(String[] args) {
+		 int x=20, y=30;
+		    boolean b;
+		    b = x > 50 && y > 60 || x > 50 && y < -60 || x < -50 && y > 60 || x < -50 && y < -60;
+		    System.out.println(b);
+	}
+
+}
+
+

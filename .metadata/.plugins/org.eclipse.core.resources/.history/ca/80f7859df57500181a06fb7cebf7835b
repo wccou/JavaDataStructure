@@ -1,0 +1,9 @@
+package me.hitwcc.learn;
+
+public class TestTryCatchFinally {
+
+	public TestTryCatchFinally() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

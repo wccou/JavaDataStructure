@@ -1,0 +1,29 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题50 
+ * Description:第一个只出现一次的字符
+ * @author: wcc
+ * @created: 2018年6月22日下午4:49:22
+ */
+public class Test50 {
+
+	public Test50() {
+		// TODO Auto-generated constructor stub
+	}
+	public int FirstNotRepeatingChar(String str) {
+		if(str==null||str.length()==0)
+			return -1;
+		int[] num=new int[256];
+		for(int i=0;i<str.length();i++){
+			char ch=str.charAt(i);
+			num[ch]++;
+		}
+		for(int i=0;i<str.length();i++){
+			if(num[str.charAt(i)]==1){
+				return i;
+			}
+		}
+        return -1;
+    }
+}

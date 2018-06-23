@@ -1,0 +1,18 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题48
+ * Description:最长不含重复字符的子字符串的长度  假设字符只包括a-z
+ * @author: wcc
+ * @created: 2018年6月21日下午3:06:24
+ */
+public class Test48 {
+
+	private static int findLongestSubstringLength(String string){
+		if(string==null||string.length()==0)
+			return 0;
+		int[] position=new int[26];
+		for(i:26)
+	}
+
+}
