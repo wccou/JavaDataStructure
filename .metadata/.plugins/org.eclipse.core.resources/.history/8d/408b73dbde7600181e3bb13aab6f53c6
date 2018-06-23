@@ -1,0 +1,23 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题52 两个链表的第一个公共节点
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月23日下午8:02:42
+ */
+public class Test52 {
+	public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
+		 if(pHead1==null||pHead2==null)
+			 return null;
+		 ListNode commonNode=new ListNode();
+		 int l1=0;
+		 int l2=0;
+		 int s=0;
+		 ListNode temp1=pHead1;
+		 ListNode temp1=pHead2;
+		 while()
+		 return commonNode;
+    }
+
+}

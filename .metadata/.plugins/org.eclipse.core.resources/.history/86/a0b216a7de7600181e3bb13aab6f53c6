@@ -1,0 +1,15 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题52 两个链表的第一个公共节点
+ * Description:
+ * @author: wcc
+ * @created: 2018年6月23日下午8:02:42
+ */
+public class Test52 {
+
+	public Test52() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
