@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;me.hitwcc.learn.Test000&apos; to &apos;Person&apos;&#x0D;&#x0A;- Original project: &apos;Offer&apos;&#x0D;&#x0A;- Original element: &apos;me.hitwcc.learn.Test000&apos;&#x0D;&#x0A;- Renamed element: &apos;me.hitwcc.learn.Person&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Test000&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;me.hitwcc.learn{Test000.java[Test000" matchStrategy="1" name="Person" qualified="false" references="true" similarDeclarations="false" stamp="1529828397567" textual="false" version="1.0"/>
+</session>

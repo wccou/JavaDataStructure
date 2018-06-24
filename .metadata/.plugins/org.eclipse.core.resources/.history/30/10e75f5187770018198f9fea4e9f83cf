@@ -1,0 +1,9 @@
+package me.hitwcc.learn;
+
+public class Test000 {
+
+	public Test000() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
