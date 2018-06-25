@@ -1,0 +1,40 @@
+package me.hitwcc.test;
+/**
+ * 
+ * Title:面试题55
+ * Description:二叉树的深度 以及 判断是否是平衡二叉树
+ * @author: wcc
+ * @created: 2018年6月25日下午5:22:07
+ */
+public class Test55 {
+
+	public int TreeDepth(TreeNode root) {
+        if(root==null)
+        	return 0;
+        int left=TreeDepth(root.left);
+        int right=TreeDepth(root.right);
+        return left>right?left+1:right+1;
+    }
+	
+public boolean IsBalanced_Solution(TreeNode root) {
+        if(root==null)
+        	return true;
+        int deep=0;
+        boolean flag=true;
+        deep=getDepth(root,flag);
+        if(deep==-1)
+        	return false;
+        return true;
+    }
+
+private int getDepth(TreeNode root,boolean flag) {
+	if(root==null)
+		return 0;
+	int left=getDepth(root.left,flag);
+	int right=getDepth(root.right,flag);
+	if(Math.abs(left-right)>1)
+		flag=false;
+	return 0;
+}
+
+}
