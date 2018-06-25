@@ -1,0 +1,17 @@
+package me.hitwcc.learn;
+
+
+public class Person{
+	private static int i=1;
+    public int getNext(){
+         return i++;
+    }
+    public static void main(String [] args){
+    	Person test=new Person();
+    	Person testObject=new Person();
+        test.getNext();
+        testObject.getNext();
+        System.out.println(testObject.getNext());
+    }
+}
+

@@ -1,0 +1,15 @@
+package me.hitwcc.learn;
+
+
+public class Person{
+    private String name = "Person";
+    int age=0;
+    static int x=10;
+    static {x+=5;}
+    public static void main(String[] args) //4
+        {
+        System.out.println("x="+x);
+    }
+    static{x/=3;};
+}
+

@@ -1,0 +1,17 @@
+package me.hitwcc.test;
+
+public class Test54 {
+	int count=0;
+	TreeNode KthNode(TreeNode pRoot, int k)
+    {
+        if(pRoot==null)
+        	return null;
+        KthNode(pRoot.left, k);
+        count++;
+        if(count==k)
+        	return pRoot;
+        KthNode(pRoot.right, k);
+        return null;
+    }
+
+}
