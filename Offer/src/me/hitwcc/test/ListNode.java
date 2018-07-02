@@ -1,11 +1,15 @@
 package me.hitwcc.test;
 
 public class ListNode {
-		int val;
-		ListNode next;
+	int val;
+	ListNode next;
 	
-	public ListNode() {
-		// TODO Auto-generated constructor stub
+	public ListNode(int val) {
+		this.val = val;
 	}
+	public ListNode() {
+		
+	}
+	
 
 }

@@ -70,11 +70,3 @@ public class Test62 {
 		return head.val;
 	}
 }
-class ListNode{
-	int val;
-	ListNode next;
-	public ListNode(int val) {
-		this.val = val;
-	}
-	
-}
