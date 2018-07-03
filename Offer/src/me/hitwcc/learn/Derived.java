@@ -15,7 +15,7 @@ class Base{
 public class Derived extends Base{
 
 	public Derived (String s) {
-		super("s");
+		super("s");//测试父类没有无参构造器时 必须显示调用父类有参构造器
         System.out.print("D");
     }
     public static void main(String[] args){
