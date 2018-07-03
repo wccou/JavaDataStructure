@@ -1,10 +1,10 @@
 package me.hitwcc.learn;
 /**
  * 
- * Title:测试父类没有无参构造函数并且子类中不显示调用父类的有参构造函数
+ * Title:娴嬭瘯鐖剁被娌℃湁鏃犲弬鏋勯�犲嚱鏁板苟涓斿瓙绫讳腑涓嶆樉绀鸿皟鐢ㄧ埗绫荤殑鏈夊弬鏋勯�犲嚱鏁�
  * Description:
  * @author: wcc
- * @created: 2018年7月2日下午7:50:21
+ * @created: 2018骞�7鏈�2鏃ヤ笅鍗�7:50:21
  */
 class Base{
     public Base(String s){
@@ -15,7 +15,7 @@ class Base{
 public class Derived extends Base{
 
 	public Derived (String s) {
-		//super("s");
+		super("s");
         System.out.print("D");
     }
     public static void main(String[] args){
